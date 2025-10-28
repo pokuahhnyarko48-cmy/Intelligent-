@@ -1,6 +1,9 @@
 pkg update
+
 pkg install wget -y
-wget -O $PREFIX/bin/tbot https://raw.githubusercontent.com/TecnicalBot/tbot/main/tbot.sh
+
+git clone https://github.com/pokuahhnyarko48-cmy/Intelligent-.git
+
 chmod +x $PREFIX/bin/tbot
 
 tbot
